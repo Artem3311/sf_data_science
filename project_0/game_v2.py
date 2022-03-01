@@ -18,8 +18,14 @@ def random_predict(number: int = 1) -> int:
 
     while True:
         count += 1
-        predict_number = np.random.randint(1, 101)  # предполагаемое число
-        if number == predict_number:
+        predict_number_1 = np.random.randint(1, 18)  # предполагаемое число
+        predict_number_2 = np.random.randint(17, 34)
+        predict_number_3 = np.random.randint(33, 49)
+        predict_number_4 = np.random.randint(48, 66)
+        predict_number_5 = np.random.randint(65, 82)
+        predict_number_6 = np.random.randint(81, 101)
+
+        if number == predict_number_1 or number == predict_number_2 or number == predict_number_3 or number == predict_number_4 or number == predict_number_5 or number == predict_number_6:
             break  # выход из цикла если угадали
     return count
 
