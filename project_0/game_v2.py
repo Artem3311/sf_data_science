@@ -2,6 +2,7 @@
 Компьютер сам загадывает и сам угадывает число
 """
 
+from tkinter import N
 import numpy as np
 
 
